@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
+    
 
     private void Update()
     {
@@ -27,6 +28,10 @@ public class PlayerController : MonoBehaviour
         float move = Input.GetAxis("Horizontal");
 
         
+
+
+
+
         rb.velocity = new Vector2(move * speed, rb.velocity.y);
 
         //Flip ze sprit
