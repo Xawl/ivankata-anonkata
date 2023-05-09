@@ -37,11 +37,11 @@ public class PlayerController : MonoBehaviour
         //Flip ze sprit
         if (move < 0)
         {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            transform.localScale = new Vector3(-1f, 2f, 1f);
         }
         else if (move > 0)
         {
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            transform.localScale = new Vector3(1f, 2f, 1f);
         }
 
         
