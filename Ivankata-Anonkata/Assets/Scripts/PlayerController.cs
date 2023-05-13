@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    
     public float speed = 5f;              
     public float jumpForce = 5f;          
     public Transform groundCheck;         
@@ -37,11 +38,11 @@ public class PlayerController : MonoBehaviour
         //Flip ze sprit
         if (move < 0)
         {
-            transform.localScale = new Vector3(-1f, 2f, 1f);
+            transform.localScale = new Vector3(-1f, 1f, 1f);
         }
         else if (move > 0)
         {
-            transform.localScale = new Vector3(1f, 2f, 1f);
+            transform.localScale = new Vector3(1f, 1f, 1f);
         }
 
         
